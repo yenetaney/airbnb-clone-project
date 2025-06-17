@@ -47,6 +47,24 @@ Each entity in the backend is designed to maintain structured relationships to e
 - A **guest** can leave **one Review** per **Property** they booked.  
 - A **Property** can have **multiple Reviews** from different guests.  
 - A **Review** is linked to **one Property** and **one User**.  
+# Feature Breakdown
+#### **User Management**
+This feature enables users to register, authenticate, and manage their profiles securely. Hosts can list properties, while guests can browse, book, and interact with listings, ensuring smooth access and personalized experiences.
+
+#### **Property Management**
+Hosts can create, update, and manage their property listings, including descriptions, prices, and availability. This ensures that users can find well-organized property options tailored to their needs.
+
+#### **Booking System**
+Guests can reserve properties for specific dates, view booking details, and manage their reservations. This feature guarantees a seamless process for securing stays while preventing double bookings.
+
+#### **Payment Processing**
+Integrated payment solutions allow guests to make secure transactions for their bookings. This feature ensures financial security, records payment details, and provides transparency for users.
+
+#### **Review & Rating System**
+Guests can leave reviews and ratings for properties they’ve stayed in, helping future guests make informed choices. Hosts can respond to reviews, fostering trust and engagement within the platform.
+
+#### **Data Optimization & Security**
+Efficient data storage and retrieval mechanisms ensure fast performance, while encryption and authentication protocols protect user information. This helps maintain reliability, privacy, and seamless functionality.
 
 
 
