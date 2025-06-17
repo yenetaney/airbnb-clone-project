@@ -66,6 +66,18 @@ Guests can leave reviews and ratings for properties they’ve stayed in, helping
 #### **Data Optimization & Security**
 Efficient data storage and retrieval mechanisms ensure fast performance, while encryption and authentication protocols protect user information. This helps maintain reliability, privacy, and seamless functionality.
 
+# API Security
+### **1. Authentication**
+**Purpose:** Ensures that only legitimate users can access the system by requiring secure login credentials (e.g., passwords, OAuth, or multi-factor authentication).  
+**Why It’s Crucial:** Protects user accounts from unauthorized access, preventing identity theft and data breaches.
+
+### **2. Authorization**
+**Purpose:** Controls user permissions, ensuring guests, hosts, and admins can only access functionalities relevant to their roles.  
+**Why It’s Crucial:** Prevents unauthorized actions such as guests modifying listings or accessing sensitive data.
+
+### **3. Rate Limiting & Throttling**
+**Purpose:** Limits the number of requests a user can make in a set period to prevent **DDoS attacks** and excessive server load.  
+**Why It’s Crucial:** Protects the system from **malicious bots**, spam, and overuse, ensuring fair access and stable performance.
 
 
 
