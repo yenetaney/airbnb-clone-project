@@ -20,3 +20,43 @@ The backend for the Airbnb Clone project is built to provide a scalable and effi
 - Redis: Used for caching and session management.
 - Docker: Containerization tool for consistent development and deployment environments.
 - CI/CD Pipelines: Automated pipelines for testing and deploying code changes.
+## 📌 Entity Relationships  
+
+Each entity in the backend is designed to maintain structured relationships to ensure efficient data management. Below is an overview of how they connect:  
+
+### 🔹 User & Property  
+- A **User** (host) can list **multiple Properties**.  
+- Each **Property** is owned by **one host (User)**.  
+
+### 🔹 Property & Booking  
+- A **guest (User)** can book a **Property**.  
+- A **Property** can have **multiple Bookings** from different users.  
+- Each **Booking** belongs to **one specific Property**.  
+
+### 🔹 User & Booking  
+- A **guest (User)** can make **multiple Bookings**.  
+- A **Booking** belongs to **one guest (User)**.  
+- A **host (User)** can have **multiple Bookings** for their listed Properties.  
+
+### 🔹 Booking & Payment  
+- Each **Booking** is linked to **one Payment**.  
+- A **guest (User)** makes the **Payment** for the booking.  
+- A **Payment** belongs to **one specific Booking**.  
+
+### 🔹 User & Review  
+- A **guest** can leave **one Review** per **Property** they booked.  
+- A **Property** can have **multiple Reviews** from different guests.  
+- A **Review** is linked to **one Property** and **one User**.  
+
+
+
+
+
+
+
+
+
+
+
+
+
