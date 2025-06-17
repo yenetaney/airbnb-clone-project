@@ -20,7 +20,7 @@ The backend for the Airbnb Clone project is built to provide a scalable and effi
 - Redis: Used for caching and session management.
 - Docker: Containerization tool for consistent development and deployment environments.
 - CI/CD Pipelines: Automated pipelines for testing and deploying code changes.
-## 📌 Entity Relationships  
+## Database Design  
 
 Each entity in the backend is designed to maintain structured relationships to ensure efficient data management. Below is an overview of how they connect:  
 
