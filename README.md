@@ -79,14 +79,22 @@ Efficient data storage and retrieval mechanisms ensure fast performance, while e
 **Purpose:** Limits the number of requests a user can make in a set period to prevent **DDoS attacks** and excessive server load.  
 **Why It’s Crucial:** Protects the system from **malicious bots**, spam, and overuse, ensuring fair access and stable performance.
 
+##  CI/CD Pipelines  
 
+### **What is CI/CD?**  
+CI/CD (Continuous Integration/Continuous Deployment) automates the process of integrating code changes, testing, and deploying applications. It ensures that updates are delivered efficiently and with minimal risk, improving **development speed** and **system reliability**.  
 
+### **Why CI/CD is Important for This Project**  
+- **Automated Testing** – Ensures code quality and prevents bugs from reaching production.  
+- **Efficient Deployment** – Reduces manual work by automating deployment steps.  
+- **Consistent Builds** – Guarantees that every version deployed is stable and reproducible.  
+- **Quick Rollbacks** – Makes reverting to a previous version seamless if issues arise.  
 
+### **Tools Used for CI/CD**  
+- **GitHub Actions** – Automates workflows, including testing and deployment.  
+- **Docker** – Containerizes applications, making them portable across environments.  
+- **Jenkins** – Provides customizable automation for build and deployment processes.  
+- **CircleCI** – A cloud-based CI/CD solution for rapid integration and testing.  
+- **Kubernetes** – Helps manage containerized applications for scalable deployment.  
 
-
-
-
-
-
-
-
+By implementing CI/CD, the project ensures **smooth development cycles**, **fast deployments**, and **maintained code quality**. 
